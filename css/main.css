@@ -1,0 +1,150 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    border: 0px;
+    padding: 0;
+    
+}
+header .container{
+    background-color: rgb(37, 37, 37);
+    padding:25px ;
+    padding-left: 20px;
+    width: 1520px;
+   
+
+}
+ 
+ 
+body > header h1 {
+    color:#fff;
+    text-decoration: none;
+    
+
+    
+}
+
+header li {
+    display: inline;
+    
+    
+    
+
+    
+}
+header li a{
+    text-decoration: none;
+    margin-left: 8px ;
+    padding-right: 8px;
+    
+    
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+    
+
+
+body>header li a{
+    font-weight: bold;
+    color:#fff;
+
+}
+
+body > header {
+    justify-content: space-between;
+
+}
+
+.container{
+    width: 1356px;
+    margin: 0 auto 0 auto;
+    
+}
+.articles{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.articles article img {
+   /* height: 180px;*/
+   width: 100%;
+}
+
+.articles article{
+    width:30%;
+    padding: 8px;
+}
+
+section {
+     padding: 16px 0;
+     width: 1520px;
+}
+
+section h2{
+    margin-bottom:16px ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.articles article h3{
+    margin-top: 8px;
+    margin-bottom: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+#ecomomy{
+    background-color:rgb(242, 242, 164);
+    font-family: Arial, Helvetica, sans-serif;
+}
+#ecomomy a{
+    background-color: rgb(255, 170, 0);
+    color: #ffffff;
+    padding: 8px ;
+    border-radius: 10px;
+    display: inline-block;
+    text-decoration: none;
+    margin-top:10px;
+}
+#sports{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(182, 242, 164);
+    
+}
+#sports a {
+    text-decoration: none;
+    background-color: green;
+    color: #fff;
+    padding: 8px ;
+    border-radius: 12px;
+    display: inline-block;
+    margin-top:10px;
+}
+#entertainment{
+    background-color: rgb(249, 101, 214);
+}
+#entertainment a {
+    text-decoration: none;
+    background-color: rgb(252, 154, 239);
+    color: #fff;
+    padding: 8px ;
+    border-radius: 12px;
+    display: inline-block;
+    margin-top:10px;
+}
+#technology{
+    background-color: rgb(97, 183, 253);
+}
+#technology a {
+    text-decoration: none;
+    background-color: rgb(132, 217, 241);
+    color: #fff;
+    padding: 8px ;
+    border-radius: 12px;
+    display: inline-block;
+    margin-top:10px;
+}
